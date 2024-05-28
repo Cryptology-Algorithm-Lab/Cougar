@@ -1,0 +1,28 @@
+[package]
+name = "Cougar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Common Tools
+rand = "0.8"
+group = "0.13.0"
+ff = "0.13.0"
+byteorder = { version = "1", default-features = false }
+pairing = "0.23.0"
+
+# For Cougar
+
+halo2curves = {version = "0.6.1", path = "./halo2curves"}
+halo2_proofs = {version = "0.3.0", path = "./halo2_proofs", default-features = false}
+lazy_static = "1"
+blake2b_simd = "1"
+subtle = "2.5"
+
+# For Leopard
+sha3 = { version = "0.9.1", default-features = false }
+blst = {version = "0.3.10", features=["no-threads"]}
+blstrs = "0.7.1"
+digest = { version = "0.9.0", default-features = false }
+merlin = "3"
+rand_chacha = "0.3"
