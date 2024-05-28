@@ -21,6 +21,7 @@ We also attached raw data for reproducing Figure 7 and Table 3. Each data is rec
 
 The overall structure of this codebase is as follows:
 
+```
 ├ halo2curves          # Forked from "https://github.com/privacy-scaling-explorations/halo2curves", version 0.6.1,
 │                        with slight modifications on the target group of BN254 (More functionalities & MSM)
 ├ halo2_proofs         # Forked from "https://github.com/zcash/halo2/tree/main/halo2_proofs", version 0.3.1,
@@ -34,5 +35,6 @@ The overall structure of this codebase is as follows:
 └ plot_data.iypnb      # Visualization for Raw data
 
 For more details on our implementations, please check `README.md` files in each implementation folder.
+```
 
 Enjoy!
