@@ -1,4 +1,5 @@
-### \textsf{Cougar}: Cubic Root Verifier Inner Product Argument under Discrete Logarithm Assumption
+### <span style="font-family:San Serif">Cougar</span>: Cubic Root Verifier Inner Product Argument under Discrete Logarithm Assumption
+
 - Hyeonbum Lee, Seunghun Paik, Hyunjung Son, and Jae Hong Seo
 - https://eprint.iacr.org/2024/616
 
